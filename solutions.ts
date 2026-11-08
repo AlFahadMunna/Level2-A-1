@@ -1,7 +1,5 @@
 // Problem 1:
 
-function multiplyValue(value: number, multiplier?: number): number {
-  const result = multiplier ?? 2;
-
-  return value * result;
+function multiplyValue(value: number, multiplier: number = 2): number {
+  return value * multiplier;
 }
